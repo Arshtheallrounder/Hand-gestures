@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hand Gestures</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+             <h2 class="btn btn-warning">Hand Gestures App
+                 <span>&#128077;</span>
+                 <span>&#128080;</span>
+                 <span>&#128076;</span>
+                 <span>&#128075;</span>
+             </h2>
+             <h3>Take your selfie to generate hand moments</h3>
+             <h4>Victory</h4>
+             <h5>Swag</h4>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <label>Webcam View-</label>
+                   <div id="camera"></div>
+                   <br><br>
+                   <button class="btn btn-warning" onclick="take_snapshot();">Capture Image</button>
+                   </div>
+                   <div class="col-md-4 col-sm-12 col-xs-12">
+                     <label>Prediction 1</label>
+                     <p class="emotion_name" id="result_emotion_name"></p>
+                     <p class="emoji" id="update_emoji_1"></p>
+                     <label>Prediction 2</label>
+                     <p class="emotion_name" id="result_emotion_name2"></p>
+                     <p class="emoji1" id="update_emoji_2"></p>
+                   </div>
+                 <div class="col-md-4 col-sm-12 col-xs-12">
+                     <label>Snapshot - </label>
+                  <div id="result"></div>
+                   <br><br>
+                  <button class="btn btn-sucess" onclick="check();">Predict Emotion</button>
+                 </div>
+                 
+               </center>
+           
+             </div>
+           
+                 
+               </center>
+           
+             </div>
+           
+           <script src="main.js"></script
+        </center>
+    </body>
+</html>
